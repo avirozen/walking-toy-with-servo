@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="m5kyjjk`ab[d5z[HBcE8">toggle</variable></variables><block type="device_forever" id="2zp.:=(cthm(m~gS/iU}" x="364" y="-37"><statement name="HANDLER"><block type="controls_if" id="iK6K9z!NJ@@At*zC%BtL"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="X!S-Nqq(/QCqAyn0-n~t"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="w9bQE-90XZv)yCK5IV91"><field name="VAR" id="m5kyjjk`ab[d5z[HBcE8">toggle</field></block></value><value name="B"><shadow type="math_number" id=")^+H?gfWS#9|J1urPUl{"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="servoservosetangle" id="2Ruxz@cBWuNvM=HfZk~I"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="LIt[2.JW3COV0/YY/$#)"><field name="angle">180</field></shadow></value><next><block type="music_playable_play" id="}Rp|R0;~0H^iwm6[6WEk"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="NuCJz9ctn,yxlJwGD604"><value name="note"><shadow type="device_note" id="_zX?F[(T=:@xKsY_w%ga"><field name="name">330</field></shadow></value><value name="duration"><shadow type="device_beat" id="J?rUA)SJ1!lrUABUselo"><field name="fraction">BeatFraction.Sixteenth</field></shadow></value></shadow></value><next><block type="device_pause" id="9kj3+qx)|){Dbg+9E7qj"><value name="pause"><shadow type="timePicker" id="-.2.2-@jJC)sC^m#SSPo"><field name="ms">500</field></shadow></value><next><block type="music_playable_play" id="477FAz5)1#]ma-0|t/SG"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="?zw9o!;+]Ac{*p#Lg]S2"><value name="note"><shadow type="device_note" id="FNh)-Iu?iazhOj:04p--"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id=";._D;3X0=Hk)1@e*![bn"><field name="fraction">BeatFraction.Sixteenth</field></shadow></value></shadow></value><next><block type="servoservosetangle" id="eTDd}1y-_g6k3=9[~~-m"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="N`qzD$$u.oO?#/Ss[|Y0"><field name="angle">0</field></shadow></value><next><block type="device_pause" id="=g}54Z(eg%2tVXnCyk9:"><value name="pause"><shadow type="timePicker" id="Fjw/{n?z|H%V;n22BP#q"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_forever" id="19p.]s|4#`h%A*IP.eA}" x="961" y="-62"><statement name="HANDLER"><block type="controls_if" id="U5%r6$Vl6^.f!}^23=8n"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="rRx#x]c0f|moJlLsycdU"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="3-t`rw}5o$E0sE_!,4O5"><field name="VAR" id="m5kyjjk`ab[d5z[HBcE8">toggle</field></block></value><value name="B"><shadow type="math_number" id="#AA*qian}mL1EBDvPHLa"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="4_k#;s94jpjZ+n;Jz}c?"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        # # . # # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id=".KwwqR=0L=8eFPz-/A:M"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # # . # # 
+        # . . . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="WO1zFc%JGuSGG{dQ2szK"><field name="LEDS">`
+        . # . # . 
+        # # . # # 
+        # . . . # 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="I[}4B7g7DUx;56KF$6hj"><field name="LEDS">`
+        # # . # # 
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="xjJ~17eLFfvg;;0D7bOW"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="Y!yCtXe}8.v8d;mUbI/q"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="GB-$4B*bEvI}$*#p|rbD" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="fUAUR}rD3]bpp6%3PzAc"><field name="VAR" id="m5kyjjk`ab[d5z[HBcE8">toggle</field><value name="VALUE"><shadow type="math_number" id="+/3SqL?a0A+$G$8u[Y+X"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="WOm;oH/7A%Y]TC$+1Dzt" x="38" y="227"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="HS#p(4J^}$CKI6O}?X5p"><field name="VAR" id="m5kyjjk`ab[d5z[HBcE8">toggle</field><value name="VALUE"><shadow type="math_number" id="6m{XY=xJ@$:^q!d].uE*"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
